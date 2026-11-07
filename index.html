@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal is a private desktop setup that connects its owner's Google Drive to Windows using rclone.">
+  <title>Personal · Private desktop file access</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Personal</a><nav aria-label="Main navigation"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">A personal desktop utility</p>
+    <h1>Your files.<br>Your own computer.</h1>
+    <p class="intro">Personal connects the owner's Google Drive to Windows as a mounted drive using rclone and WinFsp. It is intended only for the owner's use.</p>
+    <section><h2>What the app does</h2><p>The desktop setup lets the owner browse, read, create, update, and delete their own Google Drive files through Windows. It uses a local file cache to support desktop applications and repeated reads.</p></section>
+    <section><h2>Why Google access is requested</h2><p>Google Drive access is needed to list files and folders, read file contents, and save the owner's changes back to Drive. Google OAuth is used to obtain the owner's consent. Personal does not ask for a Google password.</p></section>
+    <section><h2>Where the data goes</h2><p>The desktop client communicates with Google Drive. Cached files, OAuth tokens, configuration, and operational logs are stored on the owner's Windows computer. This informational website does not connect to Google Drive or receive those files or credentials.</p><p><a href="privacy.html">Read the privacy policy →</a></p></section>
+    <section><h2>About this project</h2><p>Operated by <a href="https://github.com/siri-thaninnat">siri-thaninnat</a>. This is an independent personal configuration using <a href="https://rclone.org/">rclone</a> and <a href="https://winfsp.dev/">WinFsp</a>, and is not an official Google application.</p><p>Questions can be raised through the <a href="https://github.com/siri-thaninnat/siri-thaninnat.github.io/issues">project contact page</a>. Do not include private files, tokens, or credentials in public messages.</p></section>
+  </main>
+  <footer><span>Personal</span><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></footer>
+</body>
+</html>
